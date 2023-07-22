@@ -5,7 +5,7 @@ function Header() {
   return (
     <HeaderContainer className="container">
       <h4 data-aos="fade-down">
-        <a href="#">Jothika </a>
+        <a href="hero.js">Jothika </a>
       </h4>
     </HeaderContainer>
   );
