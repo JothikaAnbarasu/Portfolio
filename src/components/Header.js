@@ -5,7 +5,7 @@ function Header() {
   return (
     <HeaderContainer className="container">
       <h4 data-aos="fade-down">
-        <a href="hero.js">Jothika </a>
+        <a href="https://jothika-portfolio.netlify.app/">Jothika </a>
       </h4>
     </HeaderContainer>
   );
