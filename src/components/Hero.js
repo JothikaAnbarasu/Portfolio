@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { IoSend } from "react-icons/io5";
 import myImg from "../assets/my-image.jpg";
-import Typewriter from "typewriter-effect";
+import Typed from "react-typed";
 
 function Hero() {
   return (
@@ -22,33 +22,16 @@ function Hero() {
       </div>
       <div className="hero-subtitle">
         <h4 data-aos="fade-up" data-aos-delay="1000">
-          {/* <Typewriter
-            words={[
+          <Typed
+            strings={[
               "Proficient in Reactjs",
               "Build pixel perfect responsive websites",
               "Seeking opportunity to kick-start my career",
               "Proficient in Reactjs",
             ]}
             typeSpeed={40}
-            deleteSpeed={10}
-            wrapperClassName="typewriter-wrapper"
-          /> */}
-          <Typewriter
-            options={{
-              typeSpeed: 10,
-              deleteSpeed: 5,
-            }}
-            onInit={(typewriter) => {
-              typewriter
-                .typeString("Proficient in Reactjs")
-                .deleteAll()
-                .typeString("Build pixel perfect responsive websites")
-                .deleteAll()
-                .typeString("Seeking opportunity to kick-start my career")
-                .deleteAll()
-                .typeString("Proficient in Reactjs")
-                .start();
-            }}
+            backSpeed={10}
+            startDelay={1000}
           />
         </h4>
       </div>
@@ -106,11 +89,6 @@ const HeroContainer = styled.div`
   }
   .hero-subtitle h4 {
     color: var(--clr-violet);
-    .typewriter-wrapper {
-      height: 400px; /* Adjust the height as needed */
-      width: 100%;
-      overflow: hidden; /* Hide any overflow to prevent layout issues */
-    }
   }
   .hero-description {
     padding: 0 5%;

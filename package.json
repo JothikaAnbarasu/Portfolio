@@ -39,7 +39,7 @@
     "aos": "^2.3.4",
     "react-anchor-link-smooth-scroll": "^1.0.12",
     "react-icons": "^4.10.1",
-    "styled-components": "^6.0.4",
-    "typewriter-effect": "^2.20.1"
+    "react-typed": "^1.2.0",
+    "styled-components": "^6.0.4"
   }
 }
