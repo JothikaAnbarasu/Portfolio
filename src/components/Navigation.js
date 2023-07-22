@@ -99,6 +99,7 @@ const NavigationContainer = styled.div`
       var(--clr-violet)
     );
     z-index: 1000;
+    transition: transform 0.8s linear;
   }
   .navigation-btn {
     background-color: white;
@@ -113,8 +114,7 @@ const NavigationContainer = styled.div`
     justify-content: center;
     align-items: center;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    transition: all 0.2s ease;
-
+    transition: all 0.2s ease-in-out;
     &:hover {
       box-shadow: 0 0 18px 4px var(--clr-blue);
     }
@@ -129,6 +129,7 @@ const NavigationContainer = styled.div`
     z-index: 1500;
     opacity: 0;
     width: 0;
+    transition: all 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55);
   }
 
   .navigation-list {
