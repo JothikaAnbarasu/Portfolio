@@ -235,7 +235,7 @@ const NavigationContainer = styled.div`
     }
   }
 
-  @media screen and (max-width: 720px) {
+  @media screen and (max-width: 740px) {
     .nav-background {
       height: 1.5rem;
       width: 1.5rem;

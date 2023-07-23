@@ -13,14 +13,20 @@ function Header() {
 
 const HeaderContainer = styled.div`
   h4 {
-    padding: 4rem 3rem;
+    padding: 3.5rem;
   }
   a {
     color: ${(props) => props.theme.text};
   }
+
+  @media screen and (max-width: 1300px) {
+    h4 {
+      padding: 2rem;
+    }
+  }
   @media screen and (max-width: 720px) {
     h4 {
-      padding: 2rem 1rem;
+      padding: 1.5rem;
     }
   }
 `;

@@ -10,6 +10,7 @@ function Hero() {
 
   const textStyle = {
     fontSize: "1.5rem",
+    textAlign: "center",
   };
 
   if (isSmallScreen) {
@@ -39,8 +40,8 @@ function Hero() {
             cursorColor="rgb(107, 36, 214)"
             multiText={[
               "Proficient in Reactjs",
-              "Build pixel perfect responsive websites",
-              "Seeking opportunity to kick-start my career",
+              "Build Pixel Perferct Responsive websites",
+              "Seeking Opportunity To kick-start my career",
               "Proficient in Reactjs",
             ]}
             multiTextDelay={1000}
@@ -58,7 +59,8 @@ function Hero() {
       <div
         className="hero-resume-btn-wrapper"
         data-aos="fade-up"
-        data-aos-delay="1400"
+        data-aos-delay="1200"
+        data-aos-offset="1px"
       >
         <a
           href="https://drive.google.com/file/d/1K2VCtOudQ3gDo7_E2MqyO_kYC_5xCl99/view?usp=sharing"
@@ -101,6 +103,10 @@ const HeroContainer = styled.div`
     font-size: 90px;
     text-align: center;
   }
+
+  .hero-subtitle {
+    height: 45px;
+  }
   .hero-subtitle h4 {
     color: var(--clr-violet);
     font-size: 1.5rem;
@@ -137,6 +143,11 @@ const HeroContainer = styled.div`
 
     .hero-subtitle {
       font-size: 1.25rem;
+    }
+
+    .hero-img {
+      height: 120px;
+      width: 120px;
     }
   }
 
