@@ -246,7 +246,7 @@ const NavigationContainer = styled.div`
       height: 2.5rem;
       width: 2.5rem;
       top: 1.5rem;
-      right: 2rem;
+      right: 2.5rem;
     }
     .navigation-icon {
       &,
