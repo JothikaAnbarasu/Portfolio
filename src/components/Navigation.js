@@ -122,7 +122,6 @@ const NavigationContainer = styled.div`
 
   .navigation-nav {
     height: 100vh;
-    width: 100%;
     position: fixed;
     top: 0;
     left: 0;
@@ -133,13 +132,13 @@ const NavigationContainer = styled.div`
   }
 
   .navigation-list {
-    display: none;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     list-style: none;
     text-align: center;
+    pointer-events: none;
   }
 
   .navigation-item {
@@ -180,12 +179,11 @@ const NavigationContainer = styled.div`
     }
 
     ~ .navigation-nav {
-      display: inline-block;
       opacity: 1;
       width: 100%;
 
       .navigation-list {
-        display: inline-block;
+        pointer-events: auto;
       }
     }
 
