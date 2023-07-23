@@ -133,6 +133,7 @@ const NavigationContainer = styled.div`
   }
 
   .navigation-list {
+    display: none;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -179,8 +180,13 @@ const NavigationContainer = styled.div`
     }
 
     ~ .navigation-nav {
+      display: inline-block;
       opacity: 1;
       width: 100%;
+
+      .navigation-list {
+        display: inline-block;
+      }
     }
 
     + .navigation-btn .navigation-icon {
