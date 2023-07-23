@@ -2,9 +2,20 @@ import React from "react";
 import styled from "styled-components";
 import { IoSend } from "react-icons/io5";
 import myImg from "../assets/my-image.jpg";
-import Typed from "react-typed";
+import TypeWriterEffect from "react-typewriter-effect";
+import { useMediaQuery } from "@react-hook/media-query";
 
 function Hero() {
+  const isSmallScreen = useMediaQuery("(max-width: 690px)");
+
+  const textStyle = {
+    fontSize: "1.5rem",
+  };
+
+  if (isSmallScreen) {
+    textStyle.fontSize = "1.25rem";
+  }
+
   return (
     <HeroContainer className="container">
       <div className="hero-img-wrapper" data-aos="fade-up" data-aos-delay="400">
@@ -22,16 +33,19 @@ function Hero() {
       </div>
       <div className="hero-subtitle">
         <h4 data-aos="fade-up" data-aos-delay="1000">
-          <Typed
-            strings={[
+          <TypeWriterEffect
+            textStyle={textStyle}
+            startDelay={1000}
+            cursorColor="rgb(107, 36, 214)"
+            multiText={[
               "Proficient in Reactjs",
               "Build pixel perfect responsive websites",
               "Seeking opportunity to kick-start my career",
               "Proficient in Reactjs",
             ]}
+            multiTextDelay={1000}
             typeSpeed={40}
-            backSpeed={10}
-            startDelay={1000}
+            deleteSpeed={20}
           />
         </h4>
       </div>
@@ -47,7 +61,7 @@ function Hero() {
         data-aos-delay="1400"
       >
         <a
-          href="https://drive.google.com/file/d/1C2NhIdYyvk6dw8hayMsni-yPeS6r-mG7/view?usp=sharing"
+          href="https://drive.google.com/file/d/1K2VCtOudQ3gDo7_E2MqyO_kYC_5xCl99/view?usp=sharing"
           target="_blank"
           rel="noreferrer"
         >
@@ -89,6 +103,7 @@ const HeroContainer = styled.div`
   }
   .hero-subtitle h4 {
     color: var(--clr-violet);
+    font-size: 1.5rem;
   }
   .hero-description {
     padding: 0 5%;
@@ -118,6 +133,10 @@ const HeroContainer = styled.div`
     .hero-intro p {
       font-size: x-large;
       text-align: center;
+    }
+
+    .hero-subtitle {
+      font-size: 1.25rem;
     }
   }
 

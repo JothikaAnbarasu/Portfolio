@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@react-hook/media-query": "^1.1.1",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
@@ -39,7 +40,7 @@
     "aos": "^2.3.4",
     "react-anchor-link-smooth-scroll": "^1.0.12",
     "react-icons": "^4.10.1",
-    "react-typed": "^1.2.0",
+    "react-typewriter-effect": "^1.1.0",
     "styled-components": "^6.0.4"
   }
 }

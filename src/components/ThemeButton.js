@@ -24,7 +24,7 @@ const ThemeBtn = styled.button`
   justify-content: center;
   align-items: center;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  transition: all 0.3s ease;
+  transition: all 0.4s ease;
 
   &:hover {
     box-shadow: 0 0 18px 4px var(--clr-blue);
