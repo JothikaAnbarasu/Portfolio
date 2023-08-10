@@ -14,7 +14,7 @@ function Skills() {
             <div className="skills" data-aos="flip-down">
               <img
                 src={icon.imgurl}
-                alt="skill"
+                alt="skill icon"
                 key={i}
                 className="skill-icon-img"
               />
@@ -80,6 +80,12 @@ const SkillsContainer = styled.div`
     }
 
     margin-bottom: 8%;
+  }
+
+  @media screen and (min-width: 1200px) {
+    .skills-content {
+      gap: 4rem 8rem;
+    }
   }
 `;
 export default Skills;
