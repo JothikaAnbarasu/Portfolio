@@ -224,7 +224,7 @@ const Project = styled.div`
   }
 
   .project-img-wrapper:hover .project-img {
-    transform: scale(1.5);
+    transform: scale(1.2);
     opacity: 0.5;
   }
 
