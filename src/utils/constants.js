@@ -24,8 +24,7 @@ export const skillsArr = [
     name: "sass",
   },
   {
-    imgurl:
-      "https://raw.githubusercontent.com/styled-components/brand/master/styled-components.png",
+    imgurl: "https://styled-components.com/atom.png",
     name: "styled-components",
   },
   {
