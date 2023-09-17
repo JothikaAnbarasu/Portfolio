@@ -63,7 +63,7 @@ const AboutContainer = styled.div`
 
   .about-description {
     width: 60%;
-    padding: 4%;
+    padding:0 4%;
     font-size: 1.5rem;
   }
 

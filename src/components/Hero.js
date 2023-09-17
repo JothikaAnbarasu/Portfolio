@@ -33,7 +33,7 @@ function Hero() {
         </h1>
       </div>
       <div className="hero-subtitle">
-        <h4 data-aos="fade-up" data-aos-delay="1000">
+        <h4 data-aos="fade-up" data-aos-delay="800">
           <TypeWriterEffect
             textStyle={textStyle}
             startDelay={1000}
@@ -100,7 +100,7 @@ const HeroContainer = styled.div`
   }
   .hero-title h1 {
     color: ${(props) => props.theme.heroTitle};
-    font-size: 90px;
+    font-size: 84px;
     text-align: center;
   }
 
@@ -118,7 +118,7 @@ const HeroContainer = styled.div`
   .hero-description p {
     font-size: x-large;
     color: #86a3b8;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
   }
 
   @media screen and (max-width: 720px) {
