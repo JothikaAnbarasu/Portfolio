@@ -41,7 +41,6 @@ function Hero() {
             multiText={[
               "Proficient in Reactjs",
               "Build Pixel Perferct Responsive websites",
-              "Seeking Opportunity To kick-start my career",
               "Proficient in Reactjs",
             ]}
             multiTextDelay={1000}

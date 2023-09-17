@@ -14,9 +14,7 @@ function About() {
           <ul>
             <li>
               <p data-aos="fade-up">
-                I'm a passionate front-end developer currently seeking job
-                opportunities to apply my web development skills and contribute
-                to impactful projects.
+              I'm a dedicated <span style={{ color: "var(--clr-violet)" }}>Frontend Developer</span> with a passion for crafting web applications that are pivotal to the overall success of the product.
               </p>
             </li>
             <li>
