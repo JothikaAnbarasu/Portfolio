@@ -40,7 +40,7 @@ const SkillsContainer = styled.div`
     align-items: center;
     flex-wrap: wrap;
     gap: 4rem 4rem;
-    padding: 7% 20%;
+    padding: 7% 14%;
   }
   .skills {
     flex: 1 1 0;
@@ -85,6 +85,12 @@ const SkillsContainer = styled.div`
   @media screen and (min-width: 1200px) {
     .skills-content {
       gap: 4rem 8rem;
+    }
+  }
+
+  @media screen and (min-width: 1400px) {
+    .skills-content {
+      padding: 7% 20%;
     }
   }
 `;
