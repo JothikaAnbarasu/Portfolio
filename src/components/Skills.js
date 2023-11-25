@@ -59,7 +59,8 @@ const SkillsContainer = styled.div`
     }
   }
   .skill-icon-name {
-    color: grey;
+    color: ${(props) => props.theme.heroDescription};
+    /* color: #22303c; */
     text-align: center;
     font-weight: 500;
   }
@@ -90,7 +91,7 @@ const SkillsContainer = styled.div`
 
   @media screen and (min-width: 1400px) {
     .skills-content {
-      padding: 7% 20%;
+      padding: 5% 10%;
     }
   }
 `;

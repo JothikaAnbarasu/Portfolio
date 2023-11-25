@@ -116,7 +116,7 @@ const HeroContainer = styled.div`
   }
   .hero-description p {
     font-size: x-large;
-    color: #86a3b8;
+    color: ${(props) => props.theme.heroDescription};
     margin-bottom: 1rem;
   }
 
@@ -180,6 +180,10 @@ const HeroContainer = styled.div`
     100% {
       transform: rotate(0deg);
     }
+  }
+
+  @media screen and (min-width: 1400px) {
+    gap: 20px;
   }
 `;
 
