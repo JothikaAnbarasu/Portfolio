@@ -24,7 +24,7 @@ function Education() {
           />
         </div>
         <div className="edu-details-wrapper">
-          <EduDetaisWrapper
+          <EduDetailsWrapper
             className="degree-details-wrapper"
             data-aos="fade-up"
           >
@@ -42,9 +42,9 @@ function Education() {
             <p className="edu-course">Bsc. in Mathematics</p>
             <p className="edu-duration">july 2019 - june 2022</p>
             <p className="edu-cgpa">CGPA : 9.5</p>
-          </EduDetaisWrapper>
+          </EduDetailsWrapper>
 
-          <EduDetaisWrapper
+          <EduDetailsWrapper
             className="certification-details-wrapper "
             data-aos="fade-up"
           >
@@ -64,7 +64,7 @@ function Education() {
             >
               <button className="edu-cert-btn">Certificate</button>
             </a>
-          </EduDetaisWrapper>
+          </EduDetailsWrapper>
         </div>
       </div>
     </EducationContainer>
@@ -122,7 +122,7 @@ const EducationContainer = styled.div`
   }
 `;
 
-const EduDetaisWrapper = styled.div`
+const EduDetailsWrapper = styled.div`
   p {
     margin-bottom: 3.5%;
   }

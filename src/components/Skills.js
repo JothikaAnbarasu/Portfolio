@@ -5,7 +5,7 @@ import { skillsArr } from "../../src/utils/constants";
 function Skills() {
   return (
     <SkillsContainer className="container">
-      <div className="skills-title title" id="skills" data-aos="fade-right">
+      <div className="skills-title title" id="skills" data-aos="fade-left">
         Skills
       </div>
       <div className="skills-content">
@@ -32,7 +32,7 @@ const SkillsContainer = styled.div`
   color: ${(props) => props.theme.text};
 
   .skills-title {
-    text-align: left;
+    text-align: right;
   }
   .skills-content {
     display: flex;

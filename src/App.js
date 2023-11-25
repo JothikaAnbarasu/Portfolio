@@ -10,6 +10,7 @@ import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import ThemeButton from "./components/ThemeButton";
+import Experience from "./components/Experience";
 
 const darkTheme = {
   text: "white",
@@ -49,6 +50,7 @@ function App() {
         <Hero />
         <About />
         <Education />
+        <Experience />
         <Skills />
         <Projects />
         <Contact />

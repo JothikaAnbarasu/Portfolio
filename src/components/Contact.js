@@ -7,7 +7,7 @@ import { FiMail } from "react-icons/fi";
 function Contact() {
   return (
     <ContactContainer className="container">
-      <div className="contact-title title" id="contact" data-aos="fade-right">
+      <div className="contact-title title" id="contact" data-aos="fade-left">
         Contact
       </div>
       <div className="contact-content">
@@ -64,6 +64,9 @@ const ContactContainer = styled.div`
   margin-top: -8px;
   color: ${(props) => props.theme.text};
 
+  .contact-title {
+    text-align: right;
+  }
   .msg-gif {
     height: 320px;
     width: 320px;

@@ -8,7 +8,7 @@ import { ResumeBtn } from "./Hero";
 function Projects() {
   return (
     <ProjectsContainer className="container">
-      <div className="project-title title" id="projects" data-aos="fade-left">
+      <div className="project-title title" id="projects" data-aos="fade-right">
         Projects
       </div>
       <div className="project-content">
@@ -159,7 +159,7 @@ function Projects() {
 }
 
 const ProjectsContainer = styled.div`
-  text-align: right;
+  text-align: left;
   color: ${(props) => props.theme.text};
 
   .project-content {

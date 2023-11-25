@@ -53,6 +53,15 @@ function Navigation() {
           </li>
           <li className="navigation-item">
             <AnchorLink
+              href="#experience"
+              className="navigation-link "
+              onClick={handleCheckboxChange}
+            >
+              Experience
+            </AnchorLink>
+          </li>
+          <li className="navigation-item">
+            <AnchorLink
               href="#skills"
               className="navigation-link"
               onClick={handleCheckboxChange}
