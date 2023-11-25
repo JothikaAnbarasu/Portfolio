@@ -17,14 +17,15 @@ function Navigation() {
         className="navigation-checkbox"
         id="nav-toggle"
         checked={isChecked}
+        readOnly
       />
       <button
-        for="nav-toggle"
+        htmlFor="nav-toggle"
         className="navigation-btn"
         onClick={handleCheckboxChange}
         data-aos="fade-down"
       >
-        <span class="navigation-icon">&nbsp;</span>
+        <span className="navigation-icon">&nbsp;</span>
       </button>
 
       <div className="nav-background" data-aos="fade-down">

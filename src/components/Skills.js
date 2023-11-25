@@ -11,7 +11,7 @@ function Skills() {
       <div className="skills-content">
         {skillsArr.map((icon, i) => {
           return (
-            <div className="skills" data-aos="flip-down">
+            <div className="skills" data-aos="flip-down" key={i}>
               <img
                 src={icon.imgurl}
                 alt="skill icon"
@@ -39,7 +39,7 @@ const SkillsContainer = styled.div`
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    gap: 4rem 4rem;
+    gap: 2rem 2rem;
     padding: 7% 14%;
   }
   .skills {
