@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import ExperienceSvg from "../assets/experience.svg";
 import companyLogo from "../assets/arus-logo.png";
+
 function Experience() {
   return (
     <ExperienceContainer className="container">
@@ -29,7 +30,7 @@ function Experience() {
           <p className="exp-duration">Sept 2023 - Nov 2023</p>
           <p className="expo-techstack">
             <span className="exp-techStack-title">Tech Stack:</span> ReactJS,
-            Html, TailwindCss, Javascript, Redux
+            Html, TailwindCSS, Javascript, Redux
           </p>
         </ExpDetailsWrapper>
       </div>
