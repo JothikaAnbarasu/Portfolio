@@ -14,7 +14,7 @@ function Experience() {
       </div>
 
       <div className="experience-content">
-        <div className="exp-svg-wrapper" data-aos="fade-right">
+        <div className="exp-svg-wrapper" data-aos="fade-left">
           <img src={ExperienceSvg} alt="girl working" className="exp-svg" />
         </div>
         <ExpDetailsWrapper className="exp-details-wrapper" data-aos="fade-up">
