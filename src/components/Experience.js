@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import ExperienceSvg from "../assets/experience.svg";
+import experienceSvg from "../assets/experience.svg";
 import companyLogo from "../assets/arus-logo.png";
 
 function Experience() {
@@ -16,7 +16,7 @@ function Experience() {
 
       <div className="experience-content">
         <div className="exp-svg-wrapper" data-aos="fade-left">
-          <img src={ExperienceSvg} alt="girl working" className="exp-svg" />
+          <img src={experienceSvg} alt="girl working" className="exp-svg" />
         </div>
         <ExpDetailsWrapper className="exp-details-wrapper" data-aos="fade-up">
           <h4 className="exp-title">Internship</h4>
